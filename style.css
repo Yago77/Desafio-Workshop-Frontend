@@ -120,7 +120,7 @@ header{
     align-items: center;
     display: flex;
     flex-direction: column;
-    margin-top: 18px;
+    margin-top: 1;
     gap: 40px;
 }
 
@@ -133,6 +133,8 @@ form{
     display: flex;
     flex-direction: column;
     margin-bottom: 3vh;
+    border: none;
+    outline: none;
 }
 
 form input{
@@ -140,6 +142,8 @@ form input{
     min-width: 280px;
     font-size: 15px;
     font-family: cursive;
+    border: none;
+    outline: none;
 }
 
 form input:focus{
@@ -149,16 +153,19 @@ form input:focus{
 form label{
     margin-left: 20px;
     font-size: 20px;
+    border: none;
 }
 
 .botao {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 20px;
+    font-size: 25px;
     border-radius: 20px;
-    height: 40px;
+    height: 45px;
+    width: 30vh;
     cursor: pointer;
     transition: transform 200ms ease-in-out;
     outline: none;
+    border: none;
 }
 
 button:hover{
