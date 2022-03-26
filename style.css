@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: rgb(219, 227, 235);
+}
+
+header{
+    background-color:rgb(149, 164, 179);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1vh;
+    gap: 700px;
+}
+
+.imagens{
+    flex-direction: column;
+    gap: 100px;
+    align-items: center;
+    display: flex;
+    justify-content: row;
+}
+
+.menu{
+    display: flex;
+    gap: 65px;
+}
+
+.logo {
+   width: 8vh;
+}
+
+.area-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 40px;
+}
+
+.senha{
+    margin-left: 20px;
+    cursor: pointer;
+}
+.senha:hover{
+    text-decoration: underline;
+}
+
+.criar-conta{
+    margin: 30px 0;
+    text-align: center;
+    font-size: 16px;
+}
+
+.criar-conta a{
+    text-decoration: none;
+}
+
+.criar-conta a:hover{
+    text-decoration: underline;
+}
+
+.item-menu{
+    font-size: 20px;
+    font-family: inherit;
+    color: black;
+}
+.item-menu:hover{
+    transform: scale(1.2);
+    transition: 350ms ease-in-out;
+}
+
+.conteudo-principal{
+    padding: 20px;
+    outline: unset;
+    display: flex;
+    flex-direction: column;
+    min-width: 300px;
+    width: 400px;
+    background: rgb(149, 164, 179);
+    border-radius: 30px;
+}
+
+.conteudo-principal input{
+ border-radius: 30px;
+}
+.conteudo-principal h3{
+    text-align: center;
+    padding: 20px 0 20px 0;
+    display: flex;
+    flex-direction: column;
+    font-family: inherit;
+    font-size: 23px;
+}
+
+.descrição{
+    text-align: center;
+    font-family: cursive;
+}
+
+.conteudo-principal form{
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+.titulo{
+    font-weight: 900;
+    font-size: 48px;
+}
+
+.conteudo-principal2{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+form{
+    gap: 40px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3vh;
+}
+
+form input{
+    min-height: 30px;
+    min-width: 280px;
+    font-size: 15px;
+    font-family: cursive;
+}
+
+form input:focus{
+    background-color: rgb(238, 244, 255);
+}
+
+form label{
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.botao {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    border-radius: 20px;
+    height: 40px;
+    cursor: pointer;
+    transition: transform 200ms ease-in-out;
+    outline: none;
+}
+
+button:hover{
+    transform: scale(1.1);
+    border-color: rgb(149, 164, 179);
+}
+
+.img{
+    height: 22px;
+}
+
+footer{
+    padding: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(219, 227, 235);
+}
+
+footer .social{
+    text-align: center;
+    padding: 1vh 0px 1vh 0px;
+    color: #4b4c4d;
+}
+
+footer .social a{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    text-align: center;
+    margin: 0 8px;
+}
+
+footer .social a:hover{
+    opacity: 0.9;
+    transform: scale(1.5);
+    transition: 400ms ease-in-out;
+}
+
+
