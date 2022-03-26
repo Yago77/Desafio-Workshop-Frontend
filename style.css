@@ -24,12 +24,8 @@ header{
     gap: 700px;
 }
 
-.imagens{
-    flex-direction: column;
-    gap: 100px;
-    align-items: center;
-    display: flex;
-    justify-content: row;
+.imagem{
+ margin-left: 15vh;
 }
 
 .menu{
@@ -46,7 +42,8 @@ header{
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    padding: 40px;
+    margin-left: 100px;
+    
 }
 
 .senha{
@@ -123,7 +120,12 @@ header{
     align-items: center;
     display: flex;
     flex-direction: column;
+    margin-top: 18px;
     gap: 40px;
+}
+
+.conteudo-principal2 .titulo, .descrição{
+    margin-right: 50vh;
 }
 
 form{
